@@ -6,10 +6,10 @@
 
 body {
   font-family: 'Georgia', serif;
-  background: linear-gradient(135deg, #1b3d1b, #0e2e0e); /* Deep dark green gradient */
-  color: #fef8e1; /* Soft off-white text */
+  background: linear-gradient(135deg, #6fa3f5, #4a92e0); /* Bright blue gradient */
+  color: #ffffff; /* Bright white text */
   line-height: 1.6;
-  background-image: url('jungle-texture.jpg'); /* Subtle texture for depth */
+  background-image: url('mountain-texture.jpg'); /* Subtle mountain texture */
   background-size: cover;
 }
 
@@ -19,16 +19,16 @@ body {
 }
 
 header {
-  background: rgba(34, 34, 34, 0.85); /* Darker header with transparency */
+  background: rgba(20, 20, 20, 0.85); /* Darker header for contrast */
   padding: 20px 0;
   text-align: center;
-  border-bottom: 4px solid #a3c94c; /* Lush green border */
+  border-bottom: 4px solid #4a92e0; /* Accent border */
 }
 
 header h1 {
   font-size: 3.5em; /* Increased font size */
   margin-bottom: 10px;
-  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 nav ul {
@@ -41,18 +41,18 @@ nav ul li {
 }
 
 nav a {
-  color: #fef8e1; /* Light text color */
+  color: #ffffff; /* White text color */
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #a3c94c; /* Lush green hover color */
+  color: #cce7ff; /* Light blue hover color */
 }
 
 .hero {
-  background: url('aztec-ruins.jpg') no-repeat center center/cover; /* Hero image */
+  background: url('mountain-hero.jpg') no-repeat center center/cover; /* Hero image */
   padding: 150px 0; /* Increased padding */
   text-align: center;
   color: #fff;
@@ -66,7 +66,7 @@ nav a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Darker overlay for depth */
+  background: rgba(0, 0, 0, 0.4); /* Darker overlay for depth */
   z-index: 1;
 }
 
@@ -90,15 +90,15 @@ nav a:hover {
 .locations h2 {
   margin-bottom: 40px; /* More space before the title */
   font-size: 3.5em; /* Increased font size */
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); /* Strong shadow */
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5); /* Strong shadow */
 }
 
 .location {
-  background: rgba(50, 50, 50, 0.85); /* Darker background with transparency */
+  background: rgba(255, 255, 255, 0.9); /* Light background for locations */
   margin: 40px 0; /* Increased margin */
   padding: 40px; /* Increased padding */
   border-radius: 10px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s;
 }
 
@@ -121,7 +121,7 @@ nav a:hover {
 .location h3 {
   margin: 20px 0; /* Increased margin for headings */
   font-size: 2.5em; /* Larger font size for headings */
-  color: #a3c94c; /* Lush green color for headings */
+  color: #4a92e0; /* Bright blue for headings */
 }
 
 .location p {
@@ -137,11 +137,11 @@ nav a:hover {
 .about h2 {
   margin-bottom: 30px;
   font-size: 2.5em;
-  color: #a3c94c; /* Lush green color for headings */
+  color: #4a92e0; /* Bright blue for headings */
 }
 
 footer {
-  background: rgba(34, 34, 34, 0.85); /* Dark footer with transparency */
+  background: rgba(20, 20, 20, 0.85); /* Dark footer with transparency */
   padding: 20px 0;
   text-align: center;
 }
@@ -160,41 +160,11 @@ footer p {
 }
 
 .socials a {
-  color: #fef8e1; /* Light text color */
+  color: #ffffff; /* White text color */
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .socials a:hover {
-  color: #a3c94c; /* Lush green hover color */
-}
-
-/* New styles for a more vibrant background */
-body::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.2); /* Slight black overlay for depth */
-  z-index: -1;
-}
-
-.locations h2 {
-  background: rgba(163, 201, 76, 0.7); /* Soft green background for headings */
-  padding: 10px;
-  border-radius: 5px;
-  display: inline-block; /* Center the heading background */
-}
-
-.location {
-  background: rgba(34, 42, 34, 0.85); /* Rich dark green background */
-}
-
-.about h2 {
-  background: rgba(163, 201, 76, 0.7); /* Soft green background for headings */
-  padding: 10px;
-  border-radius: 5px;
-  display: inline-block; /* Center the heading background */
+  color: #cce7ff; /* Light blue hover color */
 }
