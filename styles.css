@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Georgia', serif;
-  background: linear-gradient(135deg, #2c5d34, #1a3e24); /* Rich green gradient */
+  background: linear-gradient(135deg, #1b3d1b, #0e2e0e); /* Deep dark green gradient */
   color: #fef8e1; /* Soft off-white text */
   line-height: 1.6;
   background-image: url('jungle-texture.jpg'); /* Subtle texture for depth */
@@ -28,7 +28,7 @@ header {
 header h1 {
   font-size: 3.5em; /* Increased font size */
   margin-bottom: 10px;
-  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
 }
 
 nav ul {
@@ -66,7 +66,7 @@ nav a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4); /* Darker overlay for depth */
+  background: rgba(0, 0, 0, 0.5); /* Darker overlay for depth */
   z-index: 1;
 }
 
@@ -90,11 +90,11 @@ nav a:hover {
 .locations h2 {
   margin-bottom: 40px; /* More space before the title */
   font-size: 3.5em; /* Increased font size */
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6); /* Strong shadow */
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); /* Strong shadow */
 }
 
 .location {
-  background: rgba(60, 60, 60, 0.85); /* Darker background with transparency */
+  background: rgba(45, 45, 45, 0.85); /* Darker background with transparency */
   margin: 40px 0; /* Increased margin */
   padding: 40px; /* Increased padding */
   border-radius: 10px;
