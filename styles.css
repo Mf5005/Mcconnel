@@ -1,9 +1,11 @@
+/* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body Styles */
 body {
   font-family: 'Georgia', serif;
   background: #4b6173; /* Base background color */
@@ -11,11 +13,13 @@ body {
   line-height: 1.6;
 }
 
+/* Container */
 .container {
   width: 90%;
   margin: 0 auto;
 }
 
+/* Header Styles */
 header {
   background: #615f5b; /* Header background */
   padding: 20px 0;
@@ -29,6 +33,7 @@ header h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
+/* Navigation Styles */
 nav ul {
   list-style: none;
 }
@@ -49,9 +54,10 @@ nav a:hover {
   color: #8b5a2b; /* Accent color on hover */
 }
 
+/* Hero Section */
 .hero {
   background: url('mountain-hero.jpg') no-repeat center center/cover;
-  padding: 100px 0; /* Reduced padding */
+  padding: 100px 0;
   text-align: center;
   color: #ffffff;
   position: relative;
@@ -81,6 +87,7 @@ nav a:hover {
   position: relative;
 }
 
+/* Locations Section */
 .locations {
   padding: 60px 0;
   text-align: center;
@@ -93,17 +100,19 @@ nav a:hover {
   text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
 }
 
+/* Individual Location Styles */
 .location {
   background: rgba(255, 255, 255, 0.9);
   margin: 40px 0;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .location:hover {
   transform: scale(1.02);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7); /* Enhanced shadow on hover */
 }
 
 .location img {
@@ -122,6 +131,7 @@ nav a:hover {
   margin: 20px 0;
   font-size: 2.5em;
   color: #765d43; /* Heading color */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
 
 .location p {
@@ -129,6 +139,28 @@ nav a:hover {
   margin-top: 15px;
 }
 
+/* Hike Details Section */
+.hike-details {
+  background: rgba(255, 255, 255, 0.85); /* Lighter background for readability */
+  margin-top: 20px; /* Space above the details */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  transition: background 0.3s;
+}
+
+.hike-details:hover {
+  background: rgba(255, 255, 255, 0.95); /* Brighter background on hover */
+}
+
+.hike-details p {
+  font-size: 1.2em; /* Adjusted font size */
+  color: #4b6173; /* Use a different color for details */
+  margin: 5px 0; /* Space between lines */
+  line-height: 1.4; /* Increased line-height for readability */
+}
+
+/* About Section */
 .about {
   padding: 60px 0;
   text-align: center;
@@ -140,6 +172,7 @@ nav a:hover {
   color: #765d43; /* About section heading color */
 }
 
+/* Footer Styles */
 footer {
   background: #615f5b;
   padding: 20px 0;
@@ -167,17 +200,4 @@ footer p {
 
 .socials a:hover {
   color: #8b5a2b; /* Accent color on hover */
-}
-.hike-details {
-  background: rgba(255, 255, 255, 0.8); /* Light background for readability */
-  margin-top: 20px; /* Space above the details */
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-}
-
-.hike-details p {
-  font-size: 1.2em; /* Adjusted font size */
-  color: #4b6173; /* Use a different color for details */
-  margin: 5px 0; /* Space between lines */
 }
