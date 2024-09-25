@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Georgia', serif;
-  background-color: #121212; /* Darker background */
-  color: #e0e0e0; /* Light gray text for contrast */
+  background-color: #0f0f0f; /* Darker background */
+  color: #e0e0e0; /* Light gray text */
   line-height: 1.6;
 }
 
@@ -17,16 +17,16 @@ body {
 }
 
 header {
-  background: #222; /* Darker header */
+  background: #1a1a1a; /* Darker header */
   padding: 20px 0;
   text-align: center;
-  border-bottom: 4px solid #ffcc00; /* Golden border for style */
+  border-bottom: 4px solid #d4af37; /* Golden border */
 }
 
 header h1 {
-  font-size: 2.8em;
+  font-size: 3em; /* Increased font size for title */
   margin-bottom: 10px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 nav ul {
@@ -46,12 +46,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffcc00;
+  color: #d4af37; /* Golden hover color */
 }
 
 .hero {
   background: url('hero-adventure.jpg') no-repeat center center/cover;
-  padding: 120px 0;
+  padding: 150px 0; /* Increased padding for a larger hero section */
   text-align: center;
   color: #fff;
   position: relative;
@@ -64,81 +64,82 @@ nav a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6); /* Darker overlay */
+  background: rgba(0, 0, 0, 0.7); /* Darker overlay */
   z-index: 1;
 }
 
 .hero h2 {
-  font-size: 4em;
+  font-size: 4.5em; /* Increased size for dramatic effect */
   z-index: 2;
   position: relative;
 }
 
 .hero p {
-  font-size: 1.5em;
+  font-size: 1.8em; /* Larger text for emphasis */
   z-index: 2;
   position: relative;
 }
 
 .locations {
-  padding: 50px 0;
+  padding: 60px 0; /* Increased padding for sections */
   text-align: center;
 }
 
 .locations h2 {
-  margin-bottom: 30px;
-  font-size: 2.5em;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px; /* More space before the title */
+  font-size: 3em; /* Increased font size */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9); /* More prominent shadow */
 }
 
 .location {
-  background: #333; /* Darker background for sections */
-  margin: 30px 0; /* Increased margin */
-  padding: 30px; /* Increased padding */
+  background: #2a2a2a; /* Darker section background */
+  margin: 40px 0; /* Increased margin */
+  padding: 40px; /* Increased padding */
   border-radius: 10px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
   transition: transform 0.3s;
 }
 
 .location:hover {
-  transform: scale(1.02); /* Slight zoom effect on hover */
+  transform: scale(1.03); /* Slight zoom effect on hover */
 }
 
 .location img {
   max-width: 100%;
-  height: 300px; /* Fixed height for images */
-  object-fit: cover; /* Ensure the image covers the space */
+  height: 350px; /* Increased height for images */
+  object-fit: cover; /* Ensure images cover the space */
   border-radius: 10px;
   transition: transform 0.3s;
 }
 
 .location img:hover {
-  transform: scale(1.05); /* Zoom effect for images */
+  transform: scale(1.05); /* Enhanced zoom effect */
 }
 
 .location h3 {
-  margin: 15px 0;
-  font-size: 2em;
-  color: #ffcc00; /* Golden color for headings */
+  margin: 20px 0; /* Increased margin for headings */
+  font-size: 2.2em; /* Larger font size for headings */
+  color: #d4af37; /* Golden color for headings */
 }
 
 .location p {
-  font-size: 1.2em; /* Slightly larger text for better readability */
+  font-size: 1.4em; /* Larger text for better readability */
+  margin-top: 15px; /* Spacing before the text */
 }
 
 .about {
-  padding: 50px 0;
+  padding: 60px 0; /* Increased padding for the about section */
   text-align: center;
 }
 
 .about h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 2.5em;
-  color: #ffcc00; /* Golden color for headings */
+  color: #d4af37; /* Golden color for headings */
 }
 
 footer {
-  background: #222; /* Darker footer */
+  background: #1a1a1a; /* Darker footer */
   padding: 20px 0;
   text-align: center;
 }
@@ -163,5 +164,5 @@ footer p {
 }
 
 .socials a:hover {
-  color: #ffcc00;
+  color: #d4af37; /* Golden hover color */
 }
