@@ -58,22 +58,15 @@ nav a:hover {
 .hero {
   background: url('mountain-hero.jpg') no-repeat center center/cover;
   padding: 100px 0;
+  text-align: center;
   color: #ffffff;
   position: relative;
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full viewport height */
-  text-align: center;
 }
-
 .hero h2, .hero p {
   max-width: 90%; /* Limit the width of text to 90% of the container */
   margin: 0 auto; /* Center the text */
-  z-index: 2; /* Make sure text is above the overlay */
 }
+
 
 .hero:before {
   content: '';
@@ -83,19 +76,21 @@ nav a:hover {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5); /* Dark overlay for depth */
-  z-index: 1; /* Ensure overlay is below text */
+  z-index: 1;
 }
 
 .hero h2 {
   font-size: 4.5em;
+  z-index: 2;
+  position: relative;
   margin: 20px 0;
 }
 
 .hero p {
   font-size: 1.6em;
-  margin-bottom: 0;
+  z-index: 2;
+  position: relative;
 }
-
 
 /* Locations Section */
 .locations {
