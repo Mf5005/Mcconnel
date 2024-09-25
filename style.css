@@ -9,20 +9,20 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: 'Arial', sans-serif;
 }
 
 /* Body */
 body {
-  background-color: #2B2B2B; /* Solid dark color */
-  color: #e0d8b8; /* Light beige for contrast */
+  background-color: #3a2d2d; /* Dark brown background */
+  color: #d2b48c; /* Tan color for text */
   line-height: 1.6;
   padding: 20px;
-  border: 10px solid rgba(0, 0, 0, 0.7); /* Dark gradient frame */
+  border: 10px solid #6f4c3e; /* Darker brown border */
   border-radius: 10px;
   max-width: 1200px; /* Centered content */
   margin: auto;
-  background: linear-gradient(135deg, rgba(34, 34, 34, 0.9), rgba(51, 51, 51, 0.9));
+  font-family: 'Georgia', serif; /* Classic adventure font */
+  background: linear-gradient(135deg, #3a2d2d, #2f1f1f);
 }
 
 /* Header */
@@ -31,28 +31,30 @@ body {
   align-items: center;
   justify-content: center;
   height: 80px;
-  background-color: rgba(34, 34, 34, 0.9);
-  color: #e0d8b8;
-  border-bottom: 5px solid #af8f6f; /* Darker border */
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #d2b48c;
+  border-bottom: 5px solid #6f4c3e; /* Dark border */
 }
 
 .header h1 {
-  font-size: 32px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 /* Main Content */
 .History {
   padding: 20px;
   font-size: 18px;
-  background-color: rgba(51, 51, 51, 0.8);
+  background-color: rgba(51, 51, 51, 0.9);
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 /* Headings */
 h3 {
   margin: 20px 0 10px;
-  color: #d1c6a4;
+  color: #d2b48c;
+  text-transform: uppercase;
 }
 
 /* Image Styles */
@@ -62,11 +64,11 @@ h3 {
   border-radius: 8px;
   display: block;
   margin: 20px auto; /* Centered images */
-  width: 80%; /* Responsive sizing */
+  width: 70%; /* Responsive sizing */
   max-width: 350px; /* Uniform size for all images */
   height: auto;
   object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
 }
 
 /* Attraction Section */
@@ -78,7 +80,7 @@ h3 {
   font-weight: bold;
   font-size: 24px;
   text-transform: uppercase;
-  color: #e0d8b8;
+  color: #d2b48c;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
@@ -86,12 +88,12 @@ h3 {
 .Stats {
   font-weight: 600;
   margin: 5px 0;
-  color: #d1c6a4;
+  color: #e0c2a4;
 }
 
 .stats-ans {
   font-weight: 400;
-  color: #e0d8b8;
+  color: #f0e0d0;
 }
 
 /* Score Display */
@@ -105,20 +107,18 @@ h3 {
 /* Tips and Nearby Parks */
 .p, .p3 {
   background: rgba(50, 50, 50, 0.9);
-  border: 2px solid #af8f6f;
+  border: 2px solid #6f4c3e; /* Darker border */
   border-radius: 8px;
   padding: 20px;
   margin: 20px auto;
   max-width: 400px; /* Ensure consistency */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-  display: flex;
-  flex-direction: column;
 }
 
 /* Typography */
 h2 {
   font-size: 24px;
-  color: #d1c6a4;
+  color: #d2b48c;
 }
 
 ul {
@@ -127,7 +127,7 @@ ul {
 
 ul li {
   margin: 5px 0;
-  color: #e0d8b8;
+  color: #e0c2a4;
 }
 
 /* Flexbox Alignment for Survival Tips and Pictures */
@@ -153,17 +153,10 @@ ul li {
 /* Footer */
 footer {
   background-color: #4B3D3D;
-  color: #e0d8b8;
+  color: #d2b48c;
   text-align: center;
   padding: 20px;
   position: relative;
   bottom: 0;
   width: 100%;
-}
-
-/* Adjustments for Overall Style */
-body {
-  background-image: url('path/to/grunge-texture.jpg'); /* Optional grunge texture for background */
-  background-size: cover;
-  background-attachment: fixed;
 }
