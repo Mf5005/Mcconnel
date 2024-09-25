@@ -1,266 +1,69 @@
-Here’s an updated version of your HTML, designed to match the dark, adventurous Indiana Jones theme. This version incorporates the structured layout from the previous CSS to enhance the overall aesthetic.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <title>McConnells Mill State Park</title>
+    <title>Adventure Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <h1>McConnells Mill State Park</h1>
+    <header>
+        <div class="container">
+            <h1>Adventures Await</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <div class="History">
-        <p>McConnells Mill is the escape to nature everyone needs. The park is located around an hour north of Pittsburgh and 20 minutes from Slippery Rock, PA. With a plethora of unique hiking trails and attractions, McConnells Mill is a must-see for anyone in the area.</p>
-    </div>
-    
-    <img src="pics/MillMain.jpg" class="main-img" alt="Main Mill Image">
-    
-    <h3>My Personal Experience with the Park</h3>
-    <div class="History">
-        <p>Overall, I really enjoyed McConnells Mill. Compared to much of the hiking on the eastern side of PA, it was far more unique. The large amount of boulders and waterfalls make it scenic no matter the season, although some trails can be dull if they lack boulders. The ability to rock climb adds to the adventure!</p>
-    </div>
 
-    <img src="pics/Mill2.jpg" class="main-img" alt="Mill Experience">
+    <main>
+        <section class="hero">
+            <h2>Your Next Adventure</h2>
+            <p>Join me as I explore the wild, one adventure at a time.</p>
+        </section>
 
-    <div class="attraction">
-        <h2>Top Attractions</h2>
-    </div>
+        <section class="blog-posts" id="blog">
+            <div class="container">
+                <article>
+                    <h3>Exploring the Mountain Trails</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet quam id dui posuere blandit.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article>
+                    <h3>Camping Under the Stars</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet quam id dui posuere blandit.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article>
+                    <h3>Kayaking in the Wild</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet quam id dui posuere blandit.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </div>
+        </section>
 
-    <div class="attractions">
-        <h3>1. Hell's Hollow</h3>
-        <div class="Stats"><p>Difficulty:</p></div>
-        <div class="stats-ans">Easy</div>
-        <div class="Stats"><p>Type:</p></div>
-        <div class="stats-ans">Out and Back</div>
-        <div class="Stats"><p>Length:</p></div>
-        <div class="stats-ans">Short</div>
-        <p>Hell's Hollow is the most popular waterfall in McConnells Mill. The trail to get to the falls is relatively short and easy, featuring interesting scenery and a variety of plant life.</p>
-        <div class="total-score">Total Score: 7/10</div>
-        <img src="pics/Hells-Hollow.jpg" class="pictures" alt="Hell's Hollow">
-    </div>
+        <section class="about" id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Passionate explorer, outdoor enthusiast, and storyteller. I believe in living life to the fullest through adventures.</p>
+            </div>
+        </section>
+    </main>
 
-    <div class="P">
-        <div class="p">
-            <h2>Quick Survival Tips:</h2>
-            <ul>
-                <li>At least 16 ounces of water</li>
-                <li>Sneakers or boots</li>
-                <li>A map of the park</li>
-                <li>A quick and easy snack</li>
-                <li>Bug spray (spring/summer)</li>
-                <li>First Aid kit</li>
-                <li>Cell Phone</li>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Adventure Blog. All rights reserved.</p>
+            <ul class="socials">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
             </ul>
         </div>
-    </div>
-
-    <!-- Breakneck -->
-    <div class="Number2">
-        <h3><div class="attractions">2. Breakneck Bridge</div></h3>
-        <div class="Stats"><p>Difficulty:</p></div>
-        <div class="stats-ans">Easy</div>
-        <div class="Stats"><p>Type:</p></div>
-        <div class="stats-ans">Out and Back</div>
-        <div class="Stats"><p>Length:</p></div>
-        <div class="stats-ans">Short</div>
-        <p>Breakneck Bridge features a beautiful waterfall and a breathtaking trail along the river, perfect for rock climbers.</p>
-        <div class="total-score">Total Score: 8.5/10</div>
-        <img src="pics/IMG_8909.jpg" class="pictures" alt="Breakneck Bridge">
-    </div>
-
-    <div class="p">
-        <h2>Nearby Parks to Visit:</h2>
-        <ul>
-            <li>Cook State Forest</li>
-            <li>Moraine</li>
-            <li>Presque Isle</li>
-            <li>Mill Creek, Metro Parks</li>
-            <li>OhioPyle</li>
-            <li>Raccoon Creek State Park</li>
-            <li>Quaker Falls</li>
-            <li>Laurel Highlands</li>
-        </ul>
-    </div>
-
-    <div class="Number2">
-        <h3><div class="attractions">3. Kildoo Falls</div></h3>
-        <div class="Stats"><p>Difficulty:</p></div>
-        <div class="stats-ans">Easy-Moderate</div>
-        <div class="Stats"><p>Type:</p></div>
-        <div class="stats-ans">Out and Back or Loop</div>
-        <div class="Stats"><p>Length:</p></div>
-        <div class="stats-ans">Short or Moderate</div>
-        <p>Kildoo Falls is unique as it flows over an overhang, allowing hikers to venture underneath.</p>
-        <div class="total-score">Total Score: 8/10</div>
-        <img src="pics/IMG_8186.jpg" class="pictures" alt="Kildoo Falls">
-    </div>
-
-    <div class="p">
-        <h2>Did You Know?</h2>
-        <p>42% of Americans are vitamin D deficient. Symptoms include:</p>
-        <ul>
-            <li>Muscle Pain</li>
-            <li>Bone Pain</li>
-            <li>Muscle Tremors/Spasms</li>
-            <li>Muscle Weakness</li>
-        </ul>
-        <p>Be sure to hit the trails and get in your daily dose of vitamin D!</p>
-    </div>
-
-    <div class="Number2">
-        <h3><div class="attractions">4. McConnells Mill</div></h3>
-        <div class="Stats"><p>Difficulty:</p></div>
-        <div class="stats-ans">Easy</div>
-        <div class="Stats"><p>Type:</p></div>
-        <div class="stats-ans">Hike or Drive</div>
-        <div class="Stats"><p>Length:</p></div>
-        <div class="stats-ans">Short</div>
-        <p>Reaching the mill is straightforward; the park offers tours during the season.</p>
-        <div class="total-score">Total Score: 7.5/10</div>
-        <img src="pics/Mill.jpg" class="pictures2" alt="McConnells Mill">
-    </div>
-
-    <div class="p3">
-        <h2>McConnells Mill Festival</h2>
-        <p>Experience history as you celebrate the period of 1852-1928 with tours, crafts, and music.</p>
-    </div>
-
-    <div class="Number2">
-        <h3><div class="attractions">5. Alpha Falls</div></h3>
-        <div class="Stats"><p>Difficulty:</p></div>
-        <div class="stats-ans">Easy</div>
-        <div class="Stats"><p>Type:</p></div>
-        <div class="stats-ans">Out and Back</div>
-        <div class="Stats"><p>Length:</p></div>
-        <div class="stats-ans">Short</div>
-        <p>Alpha Falls is the largest waterfall in the park and worth the visit for its impressive beauty.</p>
-        <div class="total-score">Total Score: 8.8/10</div>
-        <img src="AlphaFalls.jpg" class="pictures" alt="Alpha Falls">
-    </div>
-
-    <div class="Number2">
-        <h3><div class="attractions">6. Rock Climbing: The Kildoo Boulder</div></h3>
-        <div class="Stats"><p>Difficulty:</p></div>
-        <div class="stats-ans">Easy</div>
-        <div class="Stats"><p>Type:</p></div>
-        <div class="stats-ans">Climb (Bouldering)</div>
-        <div class="Stats"><p>Length:</p></div>
-        <div class="stats-ans">Short</div>
-        <p>A fun and easy climb; ensure you have proper safety equipment.</p>
-        <div class="total-score">Total Score: 7/10</div>
-        <img src="pics/Climbing.jpg" class="pictures" alt="Rock Climbing">
-    </div>
-
-    <div class="Number2">
-        <h3><div class="attractions">7. Grindstone Falls</div></h3>
-        <div class="Stats"><p>Difficulty:</p></div>
-        <div class="stats-ans">Moderate</div>
-        <div class="Stats"><p>Type:</p></div>
-        <div class="stats-ans">Out and Back</div>
-        <div class="Stats"><p>Length:</p></div>
-        <div class="stats-ans">Short</div>
-        <
-    <!-- End Breakneck-->
-    <div class="Number2"><h3><div class="attractions">3. Kildoo Falls</div></h3></div>
-    <!--Stats-->
-    <div class="Stats"><p>Difficulty:</p></div>
-    <div class="stats-ans"> Easy-Moderate<p></p></div>
-    <div class="Stats"><p>Type:</p></div>
-    <div class="stats-ans"> Out and Back or Loop<p></p></div>
-    <div class="Stats">Length:</div>
-    <div class="stats-ans">Short or Moderate</div>
-    <!-- End Stats-->
-    <p>
-      Kildoo Falls is by far the most unique waterfall to grace McConnells Mill. The waterfall flows over an overhang allowing hikers to venture under the falls. Interestingly, under the falls there are multiple handprints on the cave wall, it is unknown as to how long or why these prints are here.<br>
-      There are many routes to Kildoo Falls, for a shorter hike park at the Mill and for a longer hike park near the Alpha Falls trailhead or the parking lot directly after.
-      </p><div class="total-score">Total Score: 8/10</div><p></p>
-      
-      <div class="pictures"><img src="pics/IMG_8186.jpg" class="pictures"></div>
-      <p></p>
-    <div class="p"><h2>Did You Know?</h2>
-      42% of americans are vitamin D deficient. Symtpoms include <ul>
-      <li>Muscle Pain</li><li>Bone Pain</li><li>Muscle Tremors/Spasms</li><li>Muscle Weakness</li></ul> Be sure to hit the trails and get in your daily dose of vitamin D!
-        
-    </div>
-    <div class="Number2"><h3><div class="attractions">4. McConnells Mill </div></h3></div>
-     <!--Stats-->
-      <div class="Stats"><p>Difficulty:</p></div>
-      <div class="stats-ans"> Easy<p></p></div>
-      <div class="Stats"><p>Type:</p></div>
-      <div class="stats-ans"> Hike or Drive<p></p></div>
-      <div class="Stats">Length:</div>
-      <div class="stats-ans">Short</div>
-      <!-- End Stats-->
-    <p>Reaching the mill is fairly easy, you can either park at the mill or park at any nearby parking lot. The hike should take no longer than 15-45 minutes to reach the mill depending on where you park such as the Alpha Falls, Picnic Area, or the lot in between Alpha Falls and the Picnic Area.<br>
-    The mill is the most highly trafficed portion of the park, so expect to see plenty of other hikers on the trails nearby.<br>
-    The park offers tours of the historic mill at 1 and 2PM, however. The historic gristmill at McConnells Mill State Park is open Memorial Day through late September on Wednesdays through Sundays from 10:30 AM to 3:30 PM.</p>
-    <div class="total-score">Total Score: 7.5/10</div>
-     <img src="pics/Mill.jpg" class="pictures2">
-    <div class="p3"><h2>McConnells Mill Festival</h2>
-        <p>Take a journey through history as you celebrate the historic time period of 1852-1928 when the gristmill used the power of the Slippery Rock Creek to grind the wheat for bread. During this festival you can tour the mill with its original machinary, visit a Civil War envamptment, particpate in arts and crafts demonstrations, and enjoy Bluegrass and Celtic music. Local artists and craftspeople deomstrate their skills and have wares for sale.</p>
-    </div>
-    
-    <div class="Number2"><h3><div class="attractions">5. Alpha Falls</div></h3></div>
-    <!--Stats-->
-    <div class="Stats"><p>Difficulty:</p></div>
-    <div class="stats-ans"> Easy<p></p></div>
-    <div class="Stats"><p>Type:</p></div>
-    <div class="stats-ans"> Out and Back<p></p></div>
-    <div class="Stats">Length:</div>
-    <div class="stats-ans">Short</div>
-    <!-- End Stats-->
-    <p>
-      Alpha Falls is the largest waterfall in the park, making it also one of the most visited sections of the park so be prepared for other hikers. The trail to the falls is relatively short, as you enter the Alpha Pass trail you will see a sign on the right that directs you towards the falls. The falls are no more than a 5 minute walk from that point. Alpha Falls are incredibly impressive, without a doubt they're worth a visit! It is difficult to express how these falls make you feel, but I felt as if I was in a different world. Even the atmosphere surrounding the falls is surreal, pictures do not do this attraction justice. If you continue down the Alpha Pass it will bring you to the mill. Alpha pass is also an amazing trail packed with impressive boulders and a cave(of sorts). 
-    </p>
-     <div class="total-score">Total Score: 8.8/10</div><p></p>
-      <img src="AlphaFalls.jpg" class="pictures">
-    <div class="Number2"><h3><div class="attractions">6. Rock Climbing: The Kildoo Boulder</div></h3></div>
-    <!--Stats-->
-    <div class="Stats"><p>Difficulty:</p></div>
-    <div class="stats-ans"> Easy<p></p></div>
-    <div class="Stats"><p>Type:</p></div>
-    <div class="stats-ans"> Climb(Bouldering)<p></p></div>
-    <div class="Stats">Length:</div>
-    <div class="stats-ans">Short</div>
-    <!-- End Stats-->
-    <p> Overall this is a very fun and easy climb. However, before bouldering be sure to have the proper safety equiptment such as pads. As far as I know, this boulder has not been used in the past so it has no name or grade, it is most likely a V0-V1.<br>
-    To reach the boulder begin to take the trail up to Kildoo Falls, before the trail steeply ascends you will see a few trails that branch off to the right. Take the highest trail for about 10-15 minutes and you will find the boulder.</p>
-    <div class="total-score">Total Score: 7/10</div><p></p>
-    <img src="pics/Climbing.jpg" class="pictures">
-    
-     <div class="Number2"><h3><div class="attractions">7. Grindstone Falls</div></h3></div>
-    <!--Stats-->
-    <div class="Stats"><p>Difficulty:</p></div>
-    <div class="stats-ans"> Moderate<p></p></div>
-    <div class="Stats"><p>Type:</p></div>
-    <div class="stats-ans"> Out and Back<p></p></div>
-    <div class="Stats">Length:</div>
-    <div class="stats-ans">Short</div>
-    <!-- End Stats-->
-    <p>
-      Out of all the trails in McConnells Mill, Grindstone Falls is the most difficult to traverse. The trail is covered in mud and has a few steep declines you have to go down to get to the falls. Fortunately, the trail is easy to follow and short. The falls itself are small but flow  well, especially after rain. However, the better the falls flow, the more muddy the trail will be due to the rain. Making your way back up from the falls is the most difficult part of the hike. The walk back is mostly uphill and very steep, paired with mud it is somewhat difficult to walk back up. I highly recommend wearing boots and pants for this trail. Also, the trail has a lot of long grass you will likely be touching so be wary of tics. In conclusion, the trail is decent but the falls are by far the best part of the hike. 
-    </p>
-    <div class="total-score">Total Score: 6.5/10</div><p></p>
-    <img src="pics/GrindFalls.jpg" class="pictures2">
-    
-    <div class="p3"><h2>Urban Legends</h2>
-        <p>
-          </p><ul>
-            <li>
-              Moses Whorton was a caretaker at the mill who died at the turn of the century. It is rumoured he still partols the mill, chasing ill-behaving explorers away. Moses lived in a cottage by the mill back when Thomas McConnel was the owner. To call upon the deceased caretaker, one must honk their car horn next to the mill.           </li>
-       <li>
-         A young girl died in an accident at the covered bridge in McConnells mill. If you park on the bridge, turn off your lights and honk you horn three times, her vision appears in your rear view mirror.
-       </li>   </ul>
-        <p></p>
-    </div>
-  
-
-    
-
-    
-    </body></html>
+    </footer>
+</body>
+</html>
