@@ -94,7 +94,7 @@ nav a:hover {
 }
 
 .location {
-  background: rgba(45, 45, 45, 0.85); /* Darker background with transparency */
+  background: rgba(50, 50, 50, 0.85); /* Darker background with transparency */
   margin: 40px 0; /* Increased margin */
   padding: 40px; /* Increased padding */
   border-radius: 10px;
@@ -167,4 +167,34 @@ footer p {
 
 .socials a:hover {
   color: #a3c94c; /* Lush green hover color */
+}
+
+/* New styles for a more vibrant background */
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2); /* Slight black overlay for depth */
+  z-index: -1;
+}
+
+.locations h2 {
+  background: rgba(163, 201, 76, 0.7); /* Soft green background for headings */
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block; /* Center the heading background */
+}
+
+.location {
+  background: rgba(34, 42, 34, 0.85); /* Rich dark green background */
+}
+
+.about h2 {
+  background: rgba(163, 201, 76, 0.7); /* Soft green background for headings */
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block; /* Center the heading background */
 }
