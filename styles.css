@@ -168,10 +168,11 @@ nav a:hover {
   line-height: 1.4; /* Increased line-height for readability */
 }
 
-/* About Section */
 .about {
   padding: 60px 0;
   text-align: center;
+  background: none; /* Ensure there's no background causing darkness */
+  opacity: 1; /* Ensure there's no opacity affecting brightness */
 }
 
 .about h2 {
