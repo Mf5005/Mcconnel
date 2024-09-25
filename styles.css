@@ -168,3 +168,16 @@ footer p {
 .socials a:hover {
   color: #8b5a2b; /* Accent color on hover */
 }
+.hike-details {
+  background: rgba(255, 255, 255, 0.8); /* Light background for readability */
+  margin-top: 20px; /* Space above the details */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+.hike-details p {
+  font-size: 1.2em; /* Adjusted font size */
+  color: #4b6173; /* Use a different color for details */
+  margin: 5px 0; /* Space between lines */
+}
