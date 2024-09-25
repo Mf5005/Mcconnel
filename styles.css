@@ -57,11 +57,16 @@ nav a:hover {
 /* Hero Section */
 .hero {
   background: url('mountain-hero.jpg') no-repeat center center/cover;
-  padding: 150px 0;
+  padding: 100px 0;
   text-align: center;
   color: #ffffff;
   position: relative;
 }
+.hero h2, .hero p {
+  max-width: 90%; /* Limit the width of text to 90% of the container */
+  margin: 0 auto; /* Center the text */
+}
+
 
 .hero:before {
   content: '';
