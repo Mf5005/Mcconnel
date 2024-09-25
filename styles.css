@@ -101,17 +101,6 @@ nav a:hover {
   position: relative; /* Required for positioning the line */
 }
 
-.locations h2::before {
-  content: '';
-  position: absolute;
-  top: 50%; /* Align line in the middle of the heading */
-  left: -20%; /* Extend the line to the left */
-  height: 4px; /* Height of the line */
-  background-color: #FFA500; /* Same orange color */
-  width: 120%; /* Full width to extend beyond the heading */
-  z-index: -1; /* Place the line behind the text */
-  transform: translateY(-50%); /* Center the line vertically */
-}
 
 
 
