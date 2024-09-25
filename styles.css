@@ -96,8 +96,18 @@ nav a:hover {
 .locations h2 {
   margin-bottom: 40px;
   font-size: 3.2em;
-  color: #FFA500; /* Orange - bright and warm, complements the existing palette */
+  color: #FFA500; /* Orange */
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Enhanced shadow for depth */
+  position: relative; /* Required for positioning the line */
+}
+
+.locations h2::after {
+  content: '';
+  display: block;
+  height: 4px; /* Height of the line */
+  background-color: #FFA500; /* Same orange color */
+  width: 50%; /* Width of the line */
+  margin: 10px auto; /* Centering the line */
 }
 
 
