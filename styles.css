@@ -210,7 +210,7 @@ footer p {
   color: #8b5a2b; /* Accent color on hover */
 }
 .about-image {
-  max-width: 80%; /* Limit width to 80% of the container */
+  max-width: 50%; /* Change to 50% of the container */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Centering */
   margin: 20px auto; /* Center with space above and below */
