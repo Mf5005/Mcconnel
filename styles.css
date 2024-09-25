@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Georgia', serif;
-  background: linear-gradient(135deg, #6fa3f5, #4a92e0); /* Bright blue gradient */
-  color: #ffffff; /* Bright white text */
+  background: linear-gradient(135deg, #36648b, #4b6173); /* Gradient using #36648b and #4b6173 */
+  color: #ffffff; /* White text for contrast */
   line-height: 1.6;
   background-image: url('mountain-texture.jpg'); /* Subtle mountain texture */
   background-size: cover;
@@ -19,10 +19,10 @@ body {
 }
 
 header {
-  background: rgba(20, 20, 20, 0.85); /* Darker header for contrast */
+  background: rgba(19, 19, 19, 0.85); /* Darker header for contrast */
   padding: 20px 0;
   text-align: center;
-  border-bottom: 4px solid #4a92e0; /* Accent border */
+  border-bottom: 4px solid #765d43; /* Accent border using #765d43 */
 }
 
 header h1 {
@@ -48,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #cce7ff; /* Light blue hover color */
+  color: #8b5a2b; /* Light brown hover color */
 }
 
 .hero {
@@ -121,7 +121,7 @@ nav a:hover {
 .location h3 {
   margin: 20px 0; /* Increased margin for headings */
   font-size: 2.5em; /* Larger font size for headings */
-  color: #4a92e0; /* Bright blue for headings */
+  color: #765d43; /* Using #765d43 for headings */
 }
 
 .location p {
@@ -137,11 +137,11 @@ nav a:hover {
 .about h2 {
   margin-bottom: 30px;
   font-size: 2.5em;
-  color: #4a92e0; /* Bright blue for headings */
+  color: #765d43; /* Using #765d43 for headings */
 }
 
 footer {
-  background: rgba(20, 20, 20, 0.85); /* Dark footer with transparency */
+  background: rgba(19, 19, 19, 0.85); /* Dark footer with transparency */
   padding: 20px 0;
   text-align: center;
 }
@@ -166,5 +166,5 @@ footer p {
 }
 
 .socials a:hover {
-  color: #cce7ff; /* Light blue hover color */
+  color: #8b5a2b; /* Light brown hover color */
 }
