@@ -141,7 +141,7 @@ nav a:hover {
 
 /* Hike Details Section */
 .hike-details {
-  background: rgba(255, 255, 255, 0.85); /* Lighter background for readability */
+  background: linear-gradient(to bottom, rgba(255, 255, 204, 0.9), rgba(255, 255, 153, 0.9)); /* Soft yellow gradient */
   margin-top: 20px; /* Space above the details */
   padding: 20px;
   border-radius: 8px;
@@ -150,7 +150,7 @@ nav a:hover {
 }
 
 .hike-details:hover {
-  background: rgba(255, 255, 255, 0.95); /* Brighter background on hover */
+  background: linear-gradient(to bottom, rgba(255, 255, 204, 1), rgba(255, 255, 153, 1)); /* Brighter gradient on hover */
 }
 
 .hike-details p {
