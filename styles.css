@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Georgia', serif;
-  background: linear-gradient(135deg, #1a3a3a, #2a4d4d); /* Lush green gradient */
+  background: linear-gradient(135deg, #2c5d34, #1a3e24); /* Rich green gradient */
   color: #fef8e1; /* Soft off-white text */
   line-height: 1.6;
   background-image: url('jungle-texture.jpg'); /* Subtle texture for depth */
@@ -94,7 +94,7 @@ nav a:hover {
 }
 
 .location {
-  background: rgba(50, 50, 50, 0.8); /* Dark background with transparency */
+  background: rgba(60, 60, 60, 0.85); /* Darker background with transparency */
   margin: 40px 0; /* Increased margin */
   padding: 40px; /* Increased padding */
   border-radius: 10px;
