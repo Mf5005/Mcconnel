@@ -121,7 +121,7 @@ nav a:hover {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.7); /* Enhanced shadow on hover */
 }
 
-.location img, .about-image {
+.location img,  {
   max-width: 100%;
   height: 500px;
   object-fit: cover;
