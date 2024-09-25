@@ -218,7 +218,7 @@ footer p {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
   
   /* Brighten the image */
-  filter: brightness(1.0); /* Adjusts brightness (1 is default, higher is brighter) */
+  filter: brightness(1.5); /* Adjusts brightness (1 is default, higher is brighter) */
 }
 
 
