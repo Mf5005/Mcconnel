@@ -6,29 +6,27 @@
 
 body {
   font-family: 'Georgia', serif;
-  background: linear-gradient(135deg, #36648b, #4b6173); /* Gradient using #36648b and #4b6173 */
-  color: #ffffff; /* White text for contrast */
+  background: #4b6173; /* Base background color */
+  color: #ffffff; /* Text color */
   line-height: 1.6;
-  background-image: url('mountain-texture.jpg'); /* Subtle mountain texture */
-  background-size: cover;
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 header {
-  background: rgba(19, 19, 19, 0.85); /* Darker header for contrast */
+  background: #615f5b; /* Header background */
   padding: 20px 0;
   text-align: center;
-  border-bottom: 4px solid #765d43; /* Accent border using #765d43 */
+  border-bottom: 4px solid #8b5a2b; /* Accent border */
 }
 
 header h1 {
-  font-size: 3.5em; /* Increased font size */
+  font-size: 3.5em;
   margin-bottom: 10px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 nav ul {
@@ -41,21 +39,21 @@ nav ul li {
 }
 
 nav a {
-  color: #ffffff; /* White text color */
+  color: #ffffff; /* White text for links */
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #8b5a2b; /* Light brown hover color */
+  color: #8b5a2b; /* Accent color on hover */
 }
 
 .hero {
-  background: url('mountain-hero.jpg') no-repeat center center/cover; /* Hero image */
-  padding: 150px 0; /* Increased padding */
+  background: url('mountain-hero.jpg') no-repeat center center/cover;
+  padding: 100px 0; /* Reduced padding */
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   position: relative;
 }
 
@@ -66,82 +64,84 @@ nav a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4); /* Darker overlay for depth */
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for depth */
   z-index: 1;
 }
 
 .hero h2 {
-  font-size: 4.5em; /* Large text size */
+  font-size: 4.5em;
   z-index: 2;
   position: relative;
+  margin: 20px 0;
 }
 
 .hero p {
-  font-size: 1.8em; /* Larger text for emphasis */
+  font-size: 1.6em;
   z-index: 2;
   position: relative;
 }
 
 .locations {
-  padding: 60px 0; /* Increased padding */
+  padding: 60px 0;
   text-align: center;
 }
 
 .locations h2 {
-  margin-bottom: 40px; /* More space before the title */
-  font-size: 3.5em; /* Increased font size */
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5); /* Strong shadow */
+  margin-bottom: 40px;
+  font-size: 3.2em;
+  color: #765d43; /* Section title color */
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
 }
 
 .location {
-  background: rgba(255, 255, 255, 0.9); /* Light background for locations */
-  margin: 40px 0; /* Increased margin */
-  padding: 40px; /* Increased padding */
+  background: rgba(255, 255, 255, 0.9);
+  margin: 40px 0;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s;
 }
 
 .location:hover {
-  transform: scale(1.03); /* Slight zoom effect */
+  transform: scale(1.02);
 }
 
 .location img {
   max-width: 100%;
-  height: 500px; /* Height for images */
-  object-fit: cover; /* Ensure images cover the space */
+  height: 500px;
+  object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s;
 }
 
 .location img:hover {
-  transform: scale(1.05); /* Enhanced zoom effect */
+  transform: scale(1.05);
 }
 
 .location h3 {
-  margin: 20px 0; /* Increased margin for headings */
-  font-size: 2.5em; /* Larger font size for headings */
-  color: #765d43; /* Using #765d43 for headings */
+  margin: 20px 0;
+  font-size: 2.5em;
+  color: #765d43; /* Heading color */
 }
 
 .location p {
-  font-size: 1.4em; /* Larger text for readability */
-  margin-top: 15px; /* Spacing before the text */
+  font-size: 1.4em;
+  margin-top: 15px;
 }
 
 .about {
-  padding: 60px 0; /* Increased padding */
+  padding: 60px 0;
   text-align: center;
 }
 
 .about h2 {
   margin-bottom: 30px;
   font-size: 2.5em;
-  color: #765d43; /* Using #765d43 for headings */
+  color: #765d43; /* About section heading color */
 }
 
 footer {
-  background: rgba(19, 19, 19, 0.85); /* Dark footer with transparency */
+  background: #615f5b;
   padding: 20px 0;
   text-align: center;
 }
@@ -160,11 +160,11 @@ footer p {
 }
 
 .socials a {
-  color: #ffffff; /* White text color */
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .socials a:hover {
-  color: #8b5a2b; /* Light brown hover color */
+  color: #8b5a2b; /* Accent color on hover */
 }
