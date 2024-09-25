@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Georgia', serif;
-  background-color: #0f0f0f; /* Darker background */
+  background: linear-gradient(135deg, #0a0a0a, #1a1a1a); /* Gradient background */
   color: #e0e0e0; /* Light gray text */
   line-height: 1.6;
 }
@@ -17,16 +17,16 @@ body {
 }
 
 header {
-  background: #1a1a1a; /* Darker header */
+  background: rgba(26, 26, 26, 0.9); /* Slight transparency for header */
   padding: 20px 0;
   text-align: center;
   border-bottom: 4px solid #d4af37; /* Golden border */
 }
 
 header h1 {
-  font-size: 3em; /* Increased font size for title */
+  font-size: 3em; /* Increased font size */
   margin-bottom: 10px;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
 }
 
 nav ul {
@@ -51,7 +51,7 @@ nav a:hover {
 
 .hero {
   background: url('hero-adventure.jpg') no-repeat center center/cover;
-  padding: 150px 0; /* Increased padding for a larger hero section */
+  padding: 150px 0; /* Increased padding */
   text-align: center;
   color: #fff;
   position: relative;
@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 .hero h2 {
-  font-size: 4.5em; /* Increased size for dramatic effect */
+  font-size: 4.5em; /* Large text size */
   z-index: 2;
   position: relative;
 }
@@ -81,7 +81,7 @@ nav a:hover {
 }
 
 .locations {
-  padding: 60px 0; /* Increased padding for sections */
+  padding: 60px 0; /* Increased padding */
   text-align: center;
 }
 
@@ -101,12 +101,12 @@ nav a:hover {
 }
 
 .location:hover {
-  transform: scale(1.03); /* Slight zoom effect on hover */
+  transform: scale(1.03); /* Slight zoom effect */
 }
 
 .location img {
   max-width: 100%;
-  height: 350px; /* Increased height for images */
+  height: 400px; /* Increased height for images */
   object-fit: cover; /* Ensure images cover the space */
   border-radius: 10px;
   transition: transform 0.3s;
@@ -123,12 +123,12 @@ nav a:hover {
 }
 
 .location p {
-  font-size: 1.4em; /* Larger text for better readability */
+  font-size: 1.4em; /* Larger text for readability */
   margin-top: 15px; /* Spacing before the text */
 }
 
 .about {
-  padding: 60px 0; /* Increased padding for the about section */
+  padding: 60px 0; /* Increased padding */
   text-align: center;
 }
 
@@ -139,7 +139,7 @@ nav a:hover {
 }
 
 footer {
-  background: #1a1a1a; /* Darker footer */
+  background: rgba(26, 26, 26, 0.9); /* Slight transparency for footer */
   padding: 20px 0;
   text-align: center;
 }
