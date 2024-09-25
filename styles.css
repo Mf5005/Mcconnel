@@ -68,19 +68,25 @@ nav a:hover {
 }
 
 
- .hero:before {
+.hero:before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0); /* Dark overlay for depth */
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for depth */
   z-index: 1;
-} 
+}
+
+#millpic {
+  background: rgba(0, 0, 0, 0.0);
+  position: relative; /* Make it relative to the .hero section */
+  z-index: 2; /* Set z-index higher than .hero:before */
+}
 
 .hero h2 {
-  font-size: 4.5em;
+  font-size: 2.5em;
   z-index: 2;
   position: relative;
   margin: 20px 0;
