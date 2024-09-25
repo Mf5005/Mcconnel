@@ -64,7 +64,7 @@ nav a:hover {
 }
 .hero h2, .hero p {
   max-width: 95%; /* Limit the width of text to 90% of the container */
-  margin: 20px auto; /* Center the text */
+  margin: 0px auto; /* Center the text */
 }
 
 
@@ -84,7 +84,7 @@ nav a:hover {
   z-index: 2;
   position: relative;
   margin: 20px 0;
-  padding-left:10%;
+ 
 }
 
 
