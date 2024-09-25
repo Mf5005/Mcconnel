@@ -211,7 +211,7 @@ footer p {
 }
 .about-image {
   width: 100%; /* Full width of the container */
-  height: 500px; /* Set a fixed height to match other images */
+  height: 250; /* Set a fixed height to match other images */
   object-fit: cover; /* Ensures the image covers the area without distortion */
   display: block; /* Centering */
   margin: 20px auto; /* Center with space above and below */
