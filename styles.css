@@ -210,11 +210,15 @@ footer p {
   color: #8b5a2b; /* Accent color on hover */
 }
 .about-image {
-  max-width: 50%; /* Change to 50% of the container */
+  max-width: 40%; /* Slightly smaller image */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Centering */
   margin: 20px auto; /* Center with space above and below */
-  border-radius: 10px; /* Optional: add rounded corners */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Optional: add shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  
+  /* Brighten the image */
+  filter: brightness(1.2); /* Adjusts brightness (1 is default, higher is brighter) */
 }
+
 
