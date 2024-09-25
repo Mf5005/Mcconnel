@@ -96,9 +96,10 @@ nav a:hover {
 .locations h2 {
   margin-bottom: 40px;
   font-size: 3.2em;
-  color: #FF6F61; /* Bright yellow for better visibility */
+  color: #FFA500; /* Orange - bright and warm, complements the existing palette */
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Enhanced shadow for depth */
 }
+
 
 
 /* Individual Location Styles */
@@ -131,7 +132,7 @@ nav a:hover {
 .location h3 {
   margin: 20px 0;
   font-size: 2.5em;
-  color: #FF6F61; /* Heading color */
+  color: #FFA500; /* Heading color */
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
 
