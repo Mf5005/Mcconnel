@@ -82,7 +82,7 @@ nav a:hover {
 .hero h2 {
   font-size: 4.5em;
   z-index: 2;
-  position: ;
+  position: relative;
   margin: 20px 0;
 }
 
