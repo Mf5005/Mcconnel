@@ -189,6 +189,9 @@ nav a:hover {
   background: none; /* Ensure there's no background causing darkness */
   opacity: 1; /* Ensure there's no opacity affecting brightness */
 }
+.about p {
+  font-size:1.8em;
+}
 
 .about h2 {
   margin-bottom: 30px;
