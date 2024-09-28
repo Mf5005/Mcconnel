@@ -272,7 +272,7 @@ socials a:hover {
 #survival-tips .container {
   max-width: 1000px; /* Consistent width across sections */
   margin: 0 auto;
-  background-color: #fff; /* Keep the white background for list items */
+  background-color: #fff; /* White background for list items */
   padding: 40px;
   border-radius: 8px;
 }
@@ -287,7 +287,7 @@ socials a:hover {
 /* Tips List styling */
 .tips-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid for larger screens */
   gap: 20px;
   justify-content: center;
   list-style: none;
@@ -308,18 +308,35 @@ socials a:hover {
 
 .tips-list li:hover {
   transform: translateY(-5px);
-  background-color: #f0f8ff;
+  background-color: #f0f8ff; /* Light blue hover effect */
 }
 
 .tips-list li::before {
-  content: '✔';
-  color: #FFA500;
+  content: '✔'; /* Checkmark symbol */
+  color: #FFA500; /* Orange color for checkmarks */
   margin-right: 10px;
+  font-size: 1.5em; /* Make the checkmark a little larger */
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   .tips-list {
-      grid-template-columns: 1fr; /* Single column for smaller screens */
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+  }
+
+  .tips-list li {
+    font-size: 1.2em; /* Slightly smaller text on mobile for readability */
+    padding: 15px; /* Reduce padding for better fit on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #survival-tips {
+    padding: 20px 0; /* Adjust padding on smaller screens */
+  }
+
+  .tips-list li {
+    font-size: 1.1em; /* Even smaller text for very small screens */
+    padding: 10px; /* Further reduce padding */
   }
 }
