@@ -306,7 +306,8 @@ footer p {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-size: 1.4em;
+  font-size: clamp(1rem, 2.5vw, 1.2rem); /* Sets a minimum of 1rem, scaling with viewport width, with a max of 1.2rem */
+  line-height: 1.5; /* Maintain a good line height for readability */
   color: #333333;
   text-align: left;
   transition: transform 0.3s ease-in-out;
@@ -348,7 +349,8 @@ footer p {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .history-list p, .urban-legends-list p {
-  font-size:1.2em;
+  font-size: clamp(1rem, 2.5vw, 1.2rem); /* Sets a minimum of 1rem, a max of 1.2rem, scaling with viewport */
+  line-height: 1.5; /* Improve readability by increasing line-height */
 }
 
 .history-list li:last-child, .urban-legends-list li:last-child {
@@ -478,7 +480,8 @@ footer p {
   }
 
   .about p {
-    font-size: 1.2em; /* Adjust About section text */
+    font-size: clamp( 2.4em;, 1vw, 5em;);
+    /* 1.2em; /* Adjust About section text */
   }
 
   /* Adjust the image size in the About section */
