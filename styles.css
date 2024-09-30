@@ -185,7 +185,8 @@ nav a:hover {
 
 
 .about {
-  padding: 60px 0;
+  padding: 40px 0; /* Reduced padding from 60px to 40px */
+  margin-bottom: 20px; /* Reduced the bottom margin */
   text-align: center;
   background: none; /* Ensure there's no background causing darkness */
   opacity: 1; /* Ensure there's no opacity affecting brightness */
@@ -196,7 +197,7 @@ nav a:hover {
 
 .about h2 {
   margin-bottom: 30px;
-  font-size: 2.5em;
+  font-size: 2.8em;
   color: #FFA500; /* About section heading color */
 }
 
@@ -333,41 +334,45 @@ footer p {
 
 /* History and Urban Legends List */
 .history-list, .urban-legends-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 20px auto;
-  max-width: 80%; /* Same max-width as Survival Tips */
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+    padding: 40px 0; /* Reduced padding from 60px to 40px */
+    margin-bottom: 20px; /* Reduced the bottom margin */
+    text-align: center;
+    background: none; /* Ensure there's no background causing darkness */
+    opacity: 1; /* Ensure there's no opacity affecting brightness */
+  }
+  
+  
 }
 
 .history-list li, .urban-legends-list li {
   padding: 20px;
   font-size: 1.2em;
-  color: #333333;
+  color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .history-list p, .urban-legends-list p {
-  font-size: clamp(1rem, 2.5vw, 1.2rem); /* Sets a minimum of 1rem, a max of 1.2rem, scaling with viewport */
+  /*font-size: clamp(1rem, 2.5vw, 1.2rem); /* Sets a minimum of 1rem, a max of 1.2rem, scaling with viewport */
   line-height: 1.5; /* Improve readability by increasing line-height */
+  font-size:1.3em;
+  color:#ffffff;
+    /* padding: 40px 0; /* Reduced padding from 60px to 40px */
+   /* margin-bottom: 20px; /* Reduced the bottom margin */
+    text-align: center;
+    background: none; /* Ensure there's no background causing darkness */
+    opacity: 1; /* Ensure there's no opacity affecting brightness */
+  
+
+   
+  }
+  
 }
 
 .history-list li:last-child, .urban-legends-list li:last-child {
   border-bottom: none;
 }
 
-.history-list li:hover, .urban-legends-list li:hover {
-  background-color: #f0f0f0;
-  transition: background-color 0.3s;
-}
 
-/* History and Urban Legends Titles */
-.history-list li h3, .urban-legends-list li h3 {
-  font-size: 1.4em;
-  color: #8b5a2b;
-  margin-bottom: 10px;
-}
 /* sizing for phones/tablets */
 /* General font size reset for smaller screens */
 @media (max-width: 1200px) {
