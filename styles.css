@@ -342,8 +342,6 @@
     max-width: 80%; /* Same max-width as Survival Tips */
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  
       padding: 40px 0; /* Reduced padding from 60px to 40px */
       margin-bottom: 20px; /* Reduced the bottom margin */
       text-align: center;
@@ -355,11 +353,12 @@
   }
   
   .history-list li, .urban-legends-list li {
-  padding: 20px;
-  font-size: 1.2em;
-    color: #333333;
-    color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 60px 0;
+    padding: 40px 0; /* Reduced padding from 60px to 40px */
+    margin-bottom: 20px; /* Reduced the bottom margin */
+  text-align: center;
+  background: none; /* Ensure there's no background causing darkness */
+  opacity: 1; /* Ensure there's no opacity affecting brightness */
   }
   .history-list p, .urban-legends-list p {
     font-size: clamp(1rem, 2.5vw, 1.2rem); /* Sets a minimum of 1rem, a max of 1.2rem, scaling with viewport */
@@ -383,10 +382,7 @@
   border-bottom: none;
   }
   
-  .history-list li:hover, .urban-legends-list li:hover {
-    background-color: #f0f0f0;
-    transition: background-color 0.3s;
-  }
+  
   
   /* History and Urban Legends Titles */
   .history-list li h3, .urban-legends-list li h3 {
@@ -425,7 +421,7 @@
   font-size: 2.2em; /* Adjust About section heading */
   }
   
-  .about p {
+  .about, .history-list p, .urban-legends p {
   font-size: 1.6em; /* Adjust About section text */
   }
   }
@@ -456,11 +452,11 @@
   font-size: 1em; /* Further reduce hike details text */
   }
   
-  .about h2 {
+  .about h2 .history h2, .urban-legends h2 {
   font-size: 2em; /* Adjust About section heading */
   }
   
-  .about p {
+  .about p, .history-list p, .urban-legends p  {
   font-size: 1.4em; /* Adjust About section text */
   }
   
@@ -501,11 +497,11 @@
   font-size: 0.9em; /* Adjust hike details text */
   }
   
-  .about h2 {
+  .about h2, .history h2, .urban-legends h2 {
   font-size: 1.8em; /* Adjust About section heading */
   }
   
-  .about p {
+  .about p, .history-list p, .urban-legends p {
   font-size: clamp( 2.4em;, 1vw, 5em;);
   /* 1.2em; /* Adjust About section text */
   }
