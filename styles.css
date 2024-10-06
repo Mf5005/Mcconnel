@@ -4,10 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Body Styles */
-body {
-  }
-  
+
   /* Body Styles */
   body {
   font-family: 'Georgia', serif;
@@ -15,19 +12,14 @@ body {
   color: #ffffff; /* Text color */
   line-height: 1.6;
 }
-/* Container */
-.container {
-  }
+
   
   /* Container */
   .container {
   width: 90%;
   margin: 0 auto;
 }
-/* Header Styles */
-header {
-  }
-  
+
   /* Header Styles */
   header {
   background: #615f5b; /* Header background */
@@ -35,48 +27,35 @@ header {
   text-align: center;
   border-bottom: 4px solid #8b5a2b; /* Accent border */
 }
-header h1 {
-  }
-  
+
   header h1 {
   font-size: 3.5em;
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
-/* Navigation Styles */
-nav ul {
-  }
-  
+
   /* Navigation Styles */
   nav ul {
   list-style: none;
 }
-nav ul li {
-  }
-  
+
   nav ul li {
   display: inline;
   margin: 0 15px;
 }
-nav a {
-  }
-  
+
   nav a {
   color: #ffffff; /* White text for links */
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
 }
-nav a:hover {
-  }
+
   
   nav a:hover {
   color: #8b5a2b; /* Accent color on hover */
 }
-/* Hero Section */
-.hero {
-  }
-  
+
   
   /* Hero Section */
   .hero {
@@ -86,15 +65,12 @@ nav a:hover {
   color: #ffffff;
   position: relative;
 }
-.hero h2, .hero p {
-  }
+
   .hero h2, .hero p {
   max-width: 95%; /* Limit the width of text to 90% of the container */
   margin: 0px auto; /* Center the text */
 }
-.hero:before {
-  }
-  
+
   
   .hero:before {
   content: '';
@@ -106,17 +82,14 @@ nav a:hover {
   background: rgba(0, 0, 0, 0.5); /* Dark overlay for depth */
   z-index: 1;
 }
-#millpic {
-  }
+
   
   #millpic {
   background: rgba(0, 0, 0, 0.0);
   position: relative; /* Make it relative to the .hero section */
   z-index: 2; /* Set z-index higher than .hero:before */
 }
-.hero h2 {
-  }
-  
+
   .hero h2 {
   font-size: 2.5em;
   z-index: 2;
@@ -135,17 +108,13 @@ nav a:hover {
   z-index: 2;
   position: relative;
 }
-/* Locations Section */
-.locations {
-  }
-  
+
   /* Locations Section */
   .locations {
   padding: 60px 0;
   text-align: center;
 }
-.locations h2 {
-  }
+
   
   .locations h2 {
   margin: 40px 0;
@@ -154,10 +123,7 @@ nav a:hover {
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Enhanced shadow for depth */
   position: relative; /* Required for positioning the line */
 }
-/* Individual Location Styles */
-.location {
-  }
-  
+
   
   
   
@@ -172,16 +138,12 @@ nav a:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s, box-shadow 0.3s;
 }
-.location:hover {
-  }
-  
+
   .location:hover {
   transform: scale(1.02);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.7); /* Enhanced shadow on hover */
 }
-.location img {
-  }
-  
+
   .location img {
   max-width: 100%;
   height: 500px;
@@ -189,34 +151,25 @@ nav a:hover {
   border-radius: 10px;
   transition: transform 0.3s;
 }
-.location img:hover {
-  }
-  
+
   .location img:hover {
   transform: scale(1.05);
 }
-.location h3 {
-  }
-  
+
   .location h3 {
   margin: 20px 0;
   font-size: 2.5em;
   color: #8b5a2b; /* Heading color */
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
-.location p {
-  }
-  
+
   .location p {
   font-size: 1.4em;
   margin-top: 15px;
   color: #333333; /* Darker gray for improved readability */
   line-height: 1.6; /* Slightly increased line height for better readability */
 }
-/* Hike Details Section */
-.hike-details {
-  }
-  
+
   /* Hike Details Section */
   .hike-details {
   background: linear-gradient(to bottom, rgba(139, 90, 43, 0.9), rgba(107, 80, 63, 0.9)); /* Earthy gradient with brown tones */
@@ -226,15 +179,11 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
   transition: background 0.3s;
 }
-.hike-details:hover {
-  }
-  
+
   .hike-details:hover {
   background: linear-gradient(to bottom, rgba(139, 90, 43, 1), rgba(107, 80, 63, 1)); /* Slightly brighter on hover */
 }
-.hike-details p {
-  }
-  
+
   .hike-details p {
   font-size: 1.2em;
   color: #ffffff; /* Use white text for better contrast against the darker background */
@@ -263,6 +212,9 @@ nav a:hover {
   }
   .about p {
   font-size:1.8em;
+  }
+  .hike-details p, .urban-legends-list p {
+    font-size:1.8em;
   }
   
   .about h2 {
@@ -466,21 +418,21 @@ footer p {
   .history-list li, .urban-legends-list li {
   padding: 20px;
   font-size: 1.2em;
-    color: #333333;
-    color: #fff;
+   /* color: #333333; */
+    color: #ffffff
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
-  .history-list p, .urban-legends-list p {
-    font-size: clamp(1rem, 2.5vw, 1.2rem); /* Sets a minimum of 1rem, a max of 1.2rem, scaling with viewport */
-    /*font-size: clamp(1rem, 2.5vw, 1.2rem); /* Sets a minimum of 1rem, a max of 1.2rem, scaling with viewport */
-  line-height: 1.5; /* Improve readability by increasing line-height */
-    font-size:1.3em;
+  /* .history-list p, .urban-legends-list p {
+    
+      font-size: clamp( 2.4em;, 1vw, 5em;);
+      /* 1.2em; /* Adjust About section text */
+      
     color:#ffffff;
       /* padding: 40px 0; /* Reduced padding from 60px to 40px */
      /* margin-bottom: 20px; /* Reduced the bottom margin */
       text-align: center;
       background: none; /* Ensure there's no background causing darkness */
-      opacity: 1; /* Ensure there's no opacity affecting brightness */
+      opacity: 1; /* Ensure there's no opacity affecting brightness */ */
     
   
      
@@ -533,6 +485,9 @@ footer p {
   .about p {
   font-size: 1.6em; /* Adjust About section text */
   }
+  .history-list p, .urban-legends-list p {
+  font-size: 1.6em; /* Adjust About section text */
+  }
   }
   
   /* Tablet Screens */
@@ -565,9 +520,6 @@ footer p {
   font-size: 2em; /* Adjust About section heading */
   }
   
-  .about p {
-  font-size: 1.4em; /* Adjust About section text */
-  }
   
   /* Adjust the image size in the About section */
   .about-image {
@@ -614,6 +566,10 @@ footer p {
   font-size: clamp( 2.4em;, 1vw, 5em;);
   /* 1.2em; /* Adjust About section text */
   }
+  .history-list p, .urban-legends-list p {
+    font-size: clamp( 2.4em;, 1vw, 5em;);
+    /* 1.2em; /* Adjust About section text */
+    }
   
   /* Adjust the image size in the About section */
   .about-image {
