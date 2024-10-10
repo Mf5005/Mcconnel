@@ -372,9 +372,6 @@
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
   
-  
-      padding: 40px 0; /* Reduced padding from 60px to 40px */
-      margin-bottom: 20px; /* Reduced the bottom margin */
       text-align: center;
       background: none; /* Ensure there's no background causing darkness */
       opacity: 1; /* Ensure there's no opacity affecting brightness */
