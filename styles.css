@@ -205,16 +205,9 @@
   background: none; /* Ensure there's no background causing darkness */
   opacity: 1; /* Ensure there's no opacity affecting brightness */
 }
-.about p {
-  font-size: 1.8em;
-}
-.about h2 {
-  }
+
   .about p {
   font-size:1.8em;
-  }
-  .hike-details p, .urban-legends-list p {
-    font-size:1.8em;
   }
   
   .about h2 {
@@ -234,8 +227,6 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-footer p {
-  }
   
   footer p {
   margin-bottom: 10px;
@@ -246,15 +237,11 @@ footer p {
   .socials {
   list-style: none;
 }
-.socials li {
-  }
   
   .socials li {
   display: inline;
   margin: 0 10px;
 }
-.socials a {
-  }
   
   .socials a {
   color: #ffffff;
@@ -267,8 +254,7 @@ footer p {
   .socials a:hover {
   color: #8b5a2b; /* Accent color on hover */
 }
-.about-image {
-  }
+
   .about-image {
   max-width: 35%; /* Slightly smaller image */
   height: auto; /* Maintain aspect ratio */
@@ -308,16 +294,13 @@ footer p {
   color: #333333; /* Ensure text is black */
   line-height: 1.6;
 }
-.section-theme .container {
-  }
+
   
   .section-theme .container {
   max-width: 90%;
   margin: 0 auto;
 }
-/* Section header styling */
-.section-header {
-  }
+
   
   /* Section header styling */
   .section-header {
@@ -327,9 +310,7 @@ footer p {
   text-align: center;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Shadow effect for better readability */
 }
-/* Survival Tips Section */
-#survival-tips .container {
-  }
+
   
   /* Survival Tips Section */
   #survival-tips .container {
@@ -339,8 +320,7 @@ footer p {
   padding: 40px;
   border-radius: 8px;
 }
-#survival-tips {
-  }
+
   
   /* Remove light blue background and apply dark blue */
   #survival-tips {
@@ -348,8 +328,7 @@ footer p {
   padding: 40px 0;
   text-align: center;
 }
-.tips-list {
-  }
+
   
   /* Tips List styling */
   .tips-list {
@@ -413,32 +392,20 @@ footer p {
     }
     
     
-  }
   
-  .history-list li, .urban-legends-list li {
+  /*Sizing for history and urban legends text */
+  .history-list p, .urban-legends-list p{
   padding: 20px;
-  font-size: 1.2em;
-   /* color: #333333; */
+  font-size: 1.8em;
     color: #ffffff
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
-  /* .history-list p, .urban-legends-list p {
-    
-      font-size: clamp( 2.4em;, 1vw, 5em;);
-      /* 1.2em; /* Adjust About section text */
-      
-    color:#ffffff;
-      /* padding: 40px 0; /* Reduced padding from 60px to 40px */
-     /* margin-bottom: 20px; /* Reduced the bottom margin */
-      text-align: center;
-      background: none; /* Ensure there's no background causing darkness */
-      opacity: 1; /* Ensure there's no opacity affecting brightness */ */
-    
+  
   
      
-    }
     
-  }
+    
+  
   
   .history-list li:last-child, .urban-legends-list li:last-child {
   border-bottom: none;
@@ -486,6 +453,7 @@ footer p {
   font-size: 1.6em; /* Adjust About section text */
   }
   .history-list p, .urban-legends-list p {
+    color: #ffffff;
   font-size: 1.6em; /* Adjust About section text */
   }
   }
@@ -495,6 +463,9 @@ footer p {
   header h1 {
   font-size: 2.5em; /* Further reduce header size */
   }
+  .history-list p, .urban-legends-list p {
+    color: #ffffff;
+  font-size: 1.6em; /* Adjust About section text */
   
   .hero h2 {
   font-size: 1.8em; /* Adjust hero title */
@@ -567,8 +538,10 @@ footer p {
   /* 1.2em; /* Adjust About section text */
   }
   .history-list p, .urban-legends-list p {
+    color: #ffffff;
     font-size: clamp( 2.4em;, 1vw, 5em;);
     /* 1.2em; /* Adjust About section text */
+   
     }
   
   /* Adjust the image size in the About section */
