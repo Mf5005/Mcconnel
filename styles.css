@@ -64,6 +64,7 @@
   text-align: center;
   color: #ffffff;
   position: relative;
+
 }
 
   .hero h2, .hero p {
@@ -93,6 +94,7 @@
   object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s;
+
 }
 
   .hero h2 {
@@ -494,3 +496,4 @@
   .about-image {
   max-width: 85%; /* Make the image full width for mobile */
   }
+  
