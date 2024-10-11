@@ -394,11 +394,11 @@
   }
   
   .about p {
-  font-size: 1.6em; /* Adjust About section text */
+  font-size: 1.2em; /* Adjust About section text */
   }
   .history-list p, .urban-legends-list p {
     color: #ffffff;
-  font-size: 1.6em; /* Adjust About section text */
+  font-size: 1.2em; /* Adjust About section text */
   }
   .about-image {
     max-width: 85%; /* Make the image bigger for tablet */
@@ -442,7 +442,7 @@
   
   /* Adjust the image size in the About section */
   .about-image {
-  max-width: 100%; /* Make the image bigger for tablet */
+  max-width: 85%; /* Make the image bigger for tablet */
   }
   }
   
@@ -494,5 +494,5 @@
   
   /* Adjust the image size in the About section */
   .about-image {
-  max-width: 100%; /* Make the image full width for mobile */
+  max-width: 85%; /* Make the image full width for mobile */
   }
